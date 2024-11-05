@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0vw;
+}
+
+body{
+    background: rgb(236, 231, 231);
+}
+
+header{
+    width: 100vw;
+    background: white;
+
+    & .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1vw;
+    }
+    
+    & .div1{
+        width: 50vw;
+
+        & h1{
+            color: black;
+            font-size: 1.5vw;
+        }
+    }
+
+    & .div2{
+
+        & a{
+            text-decoration: none;
+            font-size: 1.0vw;
+            margin: 0.5vw;
+            color: black;
+        }
+
+        & button{
+            background: blue;
+            font-size: 1.0vw;
+            color: white;
+            border-radius: 5vw;
+            border: none;
+            padding: 0.5vw;
+        }
+    }
+}
+
+.container2{
+    height: 38vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .divtexto{
+        font-size: 1.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    & .span{
+        font-size: 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    & .botoes{
+        display: flex;
+        width: 10vw;
+        margin-top: 0.5vw;
+
+    & img{
+        width: 8vw;
+        height: 8vw                                             ;
+       }
+    }
+}
+
+& .divfooter{
+    text-align: center;
+    padding: 8vw;
+    background-color:rgb(103, 32, 235) ;
+    color:white;
+    position: relative;
+    bottom: 0;
+    width: 84vw;
+}
+
+.container3{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+
+}
+
+& .divfooter2{
+    padding: 8vw;
+    background-color:rgb(214, 212,  212); ;
+    color:rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    height: 4vw;
+    width: 84vw;
+}
+
+
